@@ -52,7 +52,7 @@ function dataPull(id) {
   });
 };
 
-
+// function for plotting the charts
 function makeChart() {
   d3.json("data/samples.json").then((data) => {
     samplesData = data.samples;
